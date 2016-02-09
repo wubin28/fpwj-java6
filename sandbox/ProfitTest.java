@@ -26,9 +26,9 @@ public class ProfitTest {
                         incrementalCosts);
 
         // when
-        double totalProfit = 0.0;
+        double totalProfits = 0.0;
         for(int time = 1; time <= 12; time ++) {
-            totalProfit += profit.valueAt(time);
+            totalProfits += profit.valueAt(time);
         }
 
         // then
