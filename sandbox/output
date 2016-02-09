@@ -1,9 +1,6 @@
-Profit.java:6: error: package QuantityCombination does not exist
-        this.valueFunction = FunctionOverTimeUtil.of3(sales, fixedCosts, incrementalCosts, new QuantityCombination.FunctionOf3() {
-                                                                                                                  ^
 ProfitTest.java:35: error: cannot find symbol
         assertEquals(436.4, totalProfits, 0.001);
                             ^
   symbol:   variable totalProfits
   location: class ProfitTest
-2 errors
+1 error
