@@ -1,6 +1,3 @@
-QualityOfInterest.java:2: error: class QuantityOfInterest is public, should be declared in a file named QuantityOfInterest.java
-public interface QuantityOfInterest {
-       ^
 Profit.java:6: error: package QuantityCombination does not exist
         this.valueFunction = QuantityCombination.of3(sales, fixedCosts, incrementalCosts, new QuantityCombination.FunctionOf3() {
                                                                                                                  ^
@@ -14,4 +11,4 @@ ProfitTest.java:35: error: cannot find symbol
                             ^
   symbol:   variable totalProfits
   location: class ProfitTest
-4 errors
+3 errors
